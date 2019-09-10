@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="interface.css"/>
+    </head>
+
+    <body>
+        <div class="menuheader">Target URL</div>
+        <div id="url_choice">
+            <div id="url1"> <input type="radio" name="url" checked value="1">Base (http://www.ex.com/)</div>
+            <div id="url2"> <input type="radio" name="url" value="2">Current URL</div>
+            <div id="url3"> <input type="radio" name="url" value="3">Remove last url item</div>
+        </div>
+
+        <div class="menuheader">Available tests</div>
+        <div class="item_list">
+            <div class="menuheader">Versioning tools</div>
+            <div value="/.git/HEAD" class="testitem itemvalue cleft"><input checked type="checkbox">Git repo (/.git/HEAD)</div>
+            <div value="/.svn" class="testitem itemvalue cright"><input checked type="checkbox">Subversion repo (/.svn)</div>
+            <div class="menuheader">Test & dev dirs</div>
+            <div value="/test" class="testitem itemvalue cleft"><input checked type="checkbox">Test dir (/test)</div>
+            <div value="/tests" class="testitem itemvalue cright"><input checked type="checkbox">Test dir2 (/tests)</div>
+            <div value="/dev" class="testitem itemvalue cleft"><input checked type="checkbox">Developpment files (/dev)</div>
+            <div class="testitem test cright"></div><div class="menuheader">Admin dirs</div>
+            <div value="/admin" class="testitem itemvalue cleft"><input checked type="checkbox">Admin folder (/admin)</div>
+            <div value="/private" class="testitem itemvalue cright"><input checked type="checkbox">Private folder (/private)</div>
+            <div class="menuheader">Database</div>
+            <div value="/db.sqlite" class="testitem itemvalue cleft"><input checked type="checkbox">SQLite file (/db.sqlite)</div>
+            <div value="/phpmyadmin" class="testitem itemvalue cright"><input checked type="checkbox">Phpmyadmin (/phpmyadmin)</div>
+            <div value="/sql" class="testitem itemvalue cleft"><input checked type="checkbox">Sql files (/sql)</div>
+            <div class="testitem test cright"></div><div class="menuheader">Backups</div>
+            <div value="/old" class="testitem itemvalue cleft"><input checked type="checkbox">Old files (/old)</div>
+            <div value="/bak" class="testitem itemvalue cright"><input checked type="checkbox">Backup 1 (/bak)</div>
+            <div value="/save" class="testitem itemvalue cleft"><input checked type="checkbox">Backup 2 (/save)</div>
+            <div value="/backup" class="testitem itemvalue cright"><input checked type="checkbox">Backup 3 (/backup)</div>
+            <div value="/backups" class="testitem itemvalue cleft"><input checked type="checkbox">Backups (/backups)</div>
+            <div class="testitem test cright"></div><div class="menuheader">Temps & Cache dirs</div>
+            <div value="/tmp" class="testitem itemvalue cleft"><input checked type="checkbox">Tempo dir. (/tmp)</div>
+            <div value="/temp" class="testitem itemvalue cright"><input checked type="checkbox">Tempo dir. 2 (/temp)</div>
+            <div value="/cache" class="testitem itemvalue cleft"><input checked type="checkbox">Cache dir. (/cache)</div>
+            <div class="testitem test cright"></div><div class="menuheader">Logs</div>
+            <div value="/log" class="testitem itemvalue cleft"><input checked type="checkbox">Log dir (/log)</div>
+            <div value="/logs" class="testitem itemvalue cright"><input checked type="checkbox">Log dir 2 (/logs)</div>
+            <div class="menuheader">Misc</div>
+            <div value="/.htaccess" class="testitem itemvalue cleft"><input checked type="checkbox">Htaccess (/.htaccess)</div>
+            <div value="/.htpasswd" class="testitem itemvalue cright"><input checked type="checkbox">Htpasswd (/.htpasswd)</div>
+            <div value="/include" class="testitem itemvalue cleft"><input checked type="checkbox">Include dir (/include)</div>
+            <div value="/includes" class="testitem itemvalue cright"><input checked type="checkbox">Include dir 2 (/includes)</div>
+            <div value="/api" class="testitem itemvalue cleft"><input checked type="checkbox">API (/api)</div>
+            <div value="/upload" class="testitem itemvalue cright"><input checked type="checkbox">Uploaded files (/upload)</div>
+            <div value="/uploads" class="testitem itemvalue cleft"><input checked type="checkbox">Uploaded files 2 (/uploads)</div>
+            <div value="/robots.txt" class="testitem itemvalue cright"><input checked type="checkbox">Robots file (/robots.txt)</div>
+            <div value="/install" class="testitem itemvalue cleft"><input checked type="checkbox">Installation files (/install)</div>
+            <div class="testitem test cright"></div>
+
+        </div>
+
+        <div class="menuheader">Actions</div>
+        <div class="button_parc">
+            <button class="starttest">Test</button><button class="checkall">Check all</button><button class="uncheck">Uncheck all</button>
+        </div>
+        <script src="interface.js"></script>
+    </body>
+
+</html>

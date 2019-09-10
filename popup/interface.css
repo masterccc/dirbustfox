@@ -1,0 +1,48 @@
+html, body {
+	width:500px;
+	margin: 0;
+	font-family: "Arial, Helvetica", sans-serif;
+	font-size: small;
+}
+
+input[type="checkbox"] {
+	margin:0;
+	margin-left: 4px;
+	margin-right: 4px;
+}
+
+button {
+	background: #1e1c1c;
+	color: #aaa;
+}
+
+.testitem {
+	width: 50%;
+	white-space: nowrap;
+	height: 20px;
+	background-color: white;
+
+}
+
+.cleft {
+	float:left;
+}
+
+.cright {
+	float:right;
+}
+
+.menuheader {
+	background: #2d2d2d;
+	color: #a49f9f;
+	text-align: center;
+	box-shadow: 2px 2px #ababab;
+}
+
+.button_parc {
+
+}
+
+.red {
+	color:red;
+}

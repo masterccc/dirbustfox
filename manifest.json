@@ -1,0 +1,31 @@
+{
+
+  "manifest_version": 2,
+  "name": "Dirbustfox",
+  "version": "1.0",
+
+  "description": "Fuzzing addon for firefox",
+
+  "icons": {
+    "128": "icons/hacking-128.png"
+  },
+
+  "permissions": [
+    "tabs",
+    "<all_urls>",
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/hacking-128.png",
+    "default_title": "Dirbustfox",
+    "default_popup": "popup/interface.html"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"]
+    }
+  ]
+
+}

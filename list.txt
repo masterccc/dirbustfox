@@ -1,0 +1,37 @@
+#Versioning tools
+/.git/HEAD Git repo
+/.svn Subversion repo
+#Test & dev dirs
+/test Test dir
+/tests Test dir2
+/dev Developpment files
+#Admin dirs
+/admin Admin folder
+/private Private folder
+#Database
+/db.sqlite SQLite file
+/phpmyadmin Phpmyadmin
+/sql Sql files
+#Backups
+/old Old files
+/bak Backup 1
+/save Backup 2
+/backup Backup 3
+/backups Backups
+#Temps & Cache dirs
+/tmp Tempo dir.
+/temp Tempo dir. 2
+/cache Cache dir.
+#Logs
+/log Log dir
+/logs Log dir 2
+#Misc
+/.htaccess Htaccess
+/.htpasswd Htpasswd
+/include Include dir
+/includes Include dir 2
+/api API
+/upload Uploaded files
+/uploads Uploaded files 2
+/robots.txt Robots file
+/install Installation files
