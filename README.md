@@ -1,7 +1,7 @@
 # dirbustfox
-Webfuzzer firefox add-on with a small list for CTF
 
-Before scan :
+Webfuzzer firefox add-on with a small list for CTF. View of the module before the scan :
+
 ![alt text](https://raw.githubusercontent.com/masterccc/dirbustfox/master/screenshots/pre.png)
 
 After scan :
